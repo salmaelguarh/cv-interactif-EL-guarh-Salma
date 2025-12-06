@@ -1,4 +1,4 @@
- /* BASE & TYPOGRAPHIE */
+ 
         body {
             background-color: #fefefe;
             font-family: 'Poppins', sans-serif;
@@ -8,7 +8,7 @@
         }
              .left-section {
     padding: 60px 40px;
-    /* Violet Profond/Orchidée */
+    
     background: linear-gradient(135deg, #6A1B9A, #9C27B0);
     color: white;
     min-height: 100vh;
@@ -47,7 +47,7 @@
             display: block;
         }
 
-        /* CARTES ET EFFETS */
+      
         .card-custom {
             background: white;
             padding: 25px;
@@ -98,7 +98,7 @@
             color: #9C27B0;
         }
 
-        /* COMPÉTENCES */
+        
         .skill {
             margin-bottom: 15px;
         }
@@ -137,7 +137,7 @@
             scroll-behavior: smooth;
         }
 
-        /* ------------------ DARK MODE ------------------ */
+      
         body.dark {
             background-color: #212121;
             color: white;
@@ -166,9 +166,7 @@
             background-color: #212121;
         }
         
-        /* CORRECTION : Style pour la carte .glass en mode sombre */
         body.dark .card-custom.glass {
-            /* Garde l'effet de flou (glassmorphism) sur un fond plus sombre et transparent */
             background: rgba(0,0,0,0.4) !important; 
             border: 1px solid rgba(255,255,255,0.1); 
             color: white;
@@ -177,10 +175,7 @@
         body.dark .card-custom.glass:hover {
             background: rgba(0,0,0,0.6) !important;
         }
-        /* ------------------ FIN DARK MODE ------------------ */
-
-
-        /* RESPONSIVE DESIGN */
+        
         @media (max-width: 991px) {
             .left-section {
                 padding: 40px 20px;
@@ -215,7 +210,7 @@
             }
         }
 
-        /* MODE IMPRESSION */
+       
         @media print {
             body {
                 background: white !important;
@@ -243,7 +238,7 @@
             }
         }
 
-        /* BOUTONS FIXES */
+        
         .toggle-btn {
             position: fixed;
             top: 20px;
@@ -282,7 +277,7 @@
             background: #45a049;
         }
 
-        /* ÉLÉMENTS FÉMININS SUBTILS */
+       
         .feminine-touch {
             position: absolute;
             top: 10px;
